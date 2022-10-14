@@ -1,0 +1,23 @@
+{
+  "name": "suade-labs-frontend-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 8080 --config=vite.config.js",
+    "cy:open": "cypress open",
+    "test": "start-server-and-test start 8080 cy:open"
+  },
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint-config-suade": "^4.0.0",
+    "start-server-and-test": "^1.14.0",
+    "vite": "^3.1.0"
+  }
+}

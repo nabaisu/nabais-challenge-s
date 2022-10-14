@@ -1,0 +1,37 @@
+{
+  "name": "suade-labs-frontend-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "exercise1": "vite exercise1 --config=vite.config.js",
+    "exercise2": "vite exercise2 --config=vite.config.js",
+    "exercise3": "vite exercise3 --config=vite.config.js",
+    "exercise4": "vite exercise4 --config=vite.config.js",
+    "exercise5": "vite exercise5 --config=vite.config.js",
+    "exercise6": "cd exercise6 && npm run test",
+    "exercise6runonly": "vite exercise6 --config=vite.config.js",
+    "postinstall": "cd exercise6 && npm install",
+    "lint": "eslint \"./\" && echo \"ESLint OK\""
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.0",
+    "eslint-config-suade": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "suade"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
