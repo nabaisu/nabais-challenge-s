@@ -21,8 +21,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.1.2",
-    "vite": "^3.1.0",
-    "eslint-config-suade": "^4.0.0"
+    "eslint-config-suade": "^4.0.0",
+    "sass": "^1.55.0",
+    "vite": "^3.1.0"
   },
   "eslintConfig": {
     "extends": [
