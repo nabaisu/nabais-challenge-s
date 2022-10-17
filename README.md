@@ -36,6 +36,22 @@ npm run exercise5
 npm run exercise6
 ```
 
+## dev notes:
+
+To test each of the exercises:
+```
+npm run test:1
+npm run test:2
+npm run test:3
+npm run test:4
+npm run test:5
+```
+
+To test the helper functions:
+```
+npm run test:helpers
+```
+
 # Exercises
 
 ### 1 - Debug VueJS mistakes
