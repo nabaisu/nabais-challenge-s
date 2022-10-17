@@ -1,0 +1,15 @@
+{
+  "component": {
+    "devServer": {
+      "framework": "vue",
+      "bundler": "vite"
+    }
+  },
+  "pluginsFile": false,
+  "baseUrl": "http://localhost:8080/",
+  "pageLoadTimeout": 240000,
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "experimentalStudio": true,
+  "requestTimeout": 20000
+}
