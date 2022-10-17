@@ -1,6 +1,10 @@
 <template>
   <ul>
-    <li v-for="item in sortedData" :key="item._id">
+    <li
+      v-for="(item, i) in sortedData"
+      :key="item._id"
+      :data-cy="'list-' + (i + 1)"
+    >
       <slot v-bind:item="item"></slot>
     </li>
   </ul>
@@ -10,9 +14,9 @@
   export default {
     name: 'List',
     props: {
-      data: {type: Array, default: ()=>[]},
-      sorting: {type: Function, default: ()=>1},
-      filtering: {type: Function, default: ()=>true},
+      data: {type: Array, default: () => []},
+      sorting: {type: Function, default: () => 1},
+      filtering: {type: Function, default: () => true},
     },
     computed: {
       filteredData() {
@@ -25,6 +29,4 @@
   };
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
