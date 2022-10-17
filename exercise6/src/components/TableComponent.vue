@@ -22,7 +22,7 @@
 <script>
 
   export default {
-    name: 'Table',
+    name: 'TableComponent',
     emits: ['update:sorting'],
     props: {
       rows: {type: Array, default: ()=>[]},

@@ -1,4 +1,5 @@
 
+/* eslint-disable no-undef */
 describe('2 - Sorting', () => {
   before(()=>{
     cy.visit('http://localhost:8080/');

@@ -1,4 +1,4 @@
-
+/* eslint-disable no-undef */
 describe('3 - Search', () => {
   before(()=>{
     cy.visit('http://localhost:8080/');

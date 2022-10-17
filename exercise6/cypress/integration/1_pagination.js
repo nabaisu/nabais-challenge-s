@@ -1,4 +1,5 @@
 
+/* eslint-disable no-undef */
 describe('1 - Pagination', () => {
   before(()=>{
     cy.visit('http://localhost:8080/');
